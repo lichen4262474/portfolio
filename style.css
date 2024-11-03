@@ -1,0 +1,14 @@
+/* Image hover effect */
+.img-thumbnail {
+  transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+}
+
+.img-thumbnail:hover {
+  transform: scale(1.1); /* Scale the image to 110% on hover */
+  cursor: pointer; /* Change cursor to pointer to indicate interactivity */
+}
+.project-image {
+  width: 100%; /* Ensures full width within container */
+  height: 200px; /* Sets a fixed height for all images */
+  object-fit: cover; /* Crops the image to fill the specified dimensions */
+}
